@@ -67,7 +67,13 @@ const ChatHomePage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold mb-6">Chat Home Page</h1>
+      <h2 className="text-4xl font-bold text-gray-200 m-4">
+        <span className="relative">
+          <span className=" text-gray-900 underline dark:text-white decoration-indigo-500 ">
+            Start the Anonymous Chat
+          </span>
+        </span>
+      </h2>
 
       <div className="flex flex-col gap-4">
         <button
